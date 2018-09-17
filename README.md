@@ -1,5 +1,5 @@
 # ustal
-"kapec"
+"norm"
 htmlbook
 ctrl / comment
 shif a
