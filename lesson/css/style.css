@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+	width: 100%;
+	background-color:gray;
+}
+
+.testik{
+   
+    background-color: aquamarine;
+	display: flex;
+   
+    margin: 0 auto;
+    width: 73%;
+	height: 941px;
+	background-image: url(D:/web_dev/3/images/mainmenu.jpg);
+	margin: 0 auto;
+  
+}
+.test1{
+	
+    display: table-cell;
+        flex: 2;
+   height: 300px;
+    
+}
+.test2{
+	
+    display: table-cell;
+	flex: 3;
+	height: 300px;
+   
+}
+.test2 ul{
+	padding-top: 50px;
+	text-align: center;
+}
+.test2 ul besit{
+   
+	width: 100%;
+	height:150px;
+	margin: 0;
+	padding: 4px;
+   
+   
+}
+.test2 ul li{
+	display: inline;
+	
+}
+
+.test2 ul li a{
+	color: #ffffff;
+	text-decoration: none;
+    font-family: sans-serif;
+	padding: 10px;
+}
+.test2 li a:hover{
+	color: grey;
+
+}
+.knopka{
+	width: 195px;
+    height: 37px;
+	margin-top: 475px;
+	margin-left: 56px;
+    text-align: center;
+    padding-top: 20px;
+	border-radius: 30px;
+	background-color: rgb(34, 91, 177);
+	color: #ffffff;
+	font-family: sans-serif;
+}
+.knopka:hover{
+	background-color: rgb(36, 36, 100);
+}
+/*------slider----------------------------------*/
+.slider {
+	width: 73%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	text-align: center;
+	
+	
+	
+}
+.mission {
+	font-family: sans-serif;
+	font-size: 50px;
+	color: rgb(34, 91, 177);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.text{
+	font-family: sans-serif;
+	font-size: 25px;
+	color: rgb(70, 68, 68);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 200px;
+	padding-right: 200px;
+
+}
+.top{
+	font-family: sans-serif;
+	font-size: 45px;
+	color: rgb(34, 91, 177);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.i-sld01{
+	width: 100%;
+	height: 300px;
+	display: flex;
+}
+.i-sld1{
+	display: table-cell;
+	flex: 1;
+}
+.i-sld2{
+	display: table-cell;
+	flex: 1;
+}
+.i-sld3{
+	display: table-cell;
+	flex: 1;
+}
+.i-sld02{
+	width: 100%;
+	height: 300px;
+	display: flex;
+}
+.i-sld4{
+	display: table-cell;
+	flex: 1;
+}
+.i-sld5{
+	display: table-cell;
+	flex: 1;
+}
