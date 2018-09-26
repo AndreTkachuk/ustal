@@ -60,7 +60,7 @@ table {
     margin: 0 auto;
     width: 73%;
 	height: 941px;
-	background-image: url(D:/web_dev/3/images/mainmenu.jpg);
+	background-image: url(images/mainmenu.jpg);
 	margin: 0 auto;
   
 }
@@ -124,6 +124,7 @@ table {
 /*------slider----------------------------------*/
 .slider {
 	width: 73%;
+	height: 1285px;
 	margin: 0 auto;
 	background-color: #ffffff;
 	text-align: center;
@@ -185,4 +186,26 @@ table {
 .i-sld5{
 	display: table-cell;
 	flex: 1;
+}
+.slider2 {
+	display: table;
+	width: 73%;
+	height: 718px;
+	background-image: url(images/atmo.jpg);
+	margin: 0 auto;
+}
+.knopka2{
+	width: 195px;
+    height: 37px;
+	margin-top: 449px;
+	margin-left: 88px;
+    text-align: center;
+    padding-top: 20px;
+	border-radius: 30px;
+	background-color: rgb(34, 91, 177);
+	color: #ffffff;
+	font-family: sans-serif;
+}
+.knopka2:hover{
+	background-color: rgb(36, 36, 100);
 }
