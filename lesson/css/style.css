@@ -66,14 +66,14 @@ table {
 }
 .test1{
 	
-    display: table-cell;
+    
         flex: 2;
    height: 300px;
     
 }
 .test2{
 	
-    display: table-cell;
+    
 	flex: 3;
 	height: 300px;
    
@@ -124,7 +124,7 @@ table {
 /*------slider----------------------------------*/
 .slider {
 	width: 73%;
-	height: 1285px;
+	
 	margin: 0 auto;
 	background-color: #ffffff;
 	text-align: center;
@@ -163,15 +163,15 @@ table {
 	display: flex;
 }
 .i-sld1{
-	display: table-cell;
+	
 	flex: 1;
 }
 .i-sld2{
-	display: table-cell;
+
 	flex: 1;
 }
 .i-sld3{
-	display: table-cell;
+	
 	flex: 1;
 }
 .i-sld02{
@@ -180,11 +180,11 @@ table {
 	display: flex;
 }
 .i-sld4{
-	display: table-cell;
+	
 	flex: 1;
 }
 .i-sld5{
-	display: table-cell;
+	
 	flex: 1;
 }
 .slider2 {
@@ -208,4 +208,101 @@ table {
 }
 .knopka2:hover{
 	background-color: rgb(36, 36, 100);
+}
+/*----------------------------------content------------------------------------*/
+.content {
+	width: 73%;
+	padding-bottom: 125px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	text-align: center;
+	
+	
+	
+}
+.news {
+	font-family: sans-serif;
+	font-size: 50px;
+	color: rgb(34, 91, 177);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.mcontent{
+	display: flex;
+	
+}
+.contentpic{
+	flex: 1;
+}
+.contenttxt{
+	flex: 1;
+	padding-left: 45px;
+	padding-right: 20px;
+	text-align: left;
+}
+.knopka3{
+	width: 195px;
+    height: 37px;
+	margin-top: 130px;
+	text-align: center;
+    padding-top: 20px;
+	border-radius: 30px;
+	background-color: rgb(34, 91, 177);
+	color: #ffffff;
+	font-family: sans-serif;
+}
+.knopka3:hover{
+	background-color: rgb(36, 36, 100);
+}
+.textcont{
+	
+	font-family: sans-serif;
+	font-size: 22px;
+	color: rgb(34, 91, 177);
+	padding-top: 30px;
+	
+}
+.footer{
+	margin: 0 auto;
+	width: 73%;
+	height: 400px;
+	background-color: #395185;
+	display: flex;
+}
+.futtab{
+	flex: 2;
+}
+.futt1{
+	flex: 1;
+	text-align: left;
+	padding-top: 150px;
+}
+.futt2{
+	flex: 1;
+	text-align: left;
+	padding-top: 150px;
+}
+.futt3{
+	flex: 1;
+	text-align: left;
+	padding-top: 150px;
+}
+.futt4{
+	flex: 1;
+	text-align: left;
+	padding-top: 150px;
+}
+.fut li a{
+color: #ffffff;
+text-decoration: none;
+font-family: sans-serif;
+padding: 10px;
+}
+.fut li a:hover{
+color: cornflowerblue;
+}
+.mbi{
+	color: #ffffff;
+    padding-top: 100px;
+    padding-left: 116px;
 }
