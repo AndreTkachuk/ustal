@@ -52,15 +52,16 @@ table {
 	background-color:gray;
 }
 
-.testik{
+.menu{
    
     background-color: aquamarine;
 	display: flex;
    
     margin: 0 auto;
-    width: 73%;
-	height: 941px;
+    width: 100%;
+	height: 900px;
 	background-image: url(images/mainmenu.jpg);
+	background-size: cover;
 	margin: 0 auto;
   
 }
@@ -108,11 +109,10 @@ table {
 }
 .knopka{
 	width: 195px;
-    height: 37px;
-	margin-top: 475px;
+    height: 50px;
+	margin-top: 550px;
 	margin-left: 56px;
-    text-align: center;
-    padding-top: 20px;
+   
 	border-radius: 30px;
 	background-color: rgb(34, 91, 177);
 	color: #ffffff;
@@ -123,7 +123,7 @@ table {
 }
 /*------slider----------------------------------*/
 .slider {
-	width: 73%;
+	width: 100%;
 	
 	margin: 0 auto;
 	background-color: #ffffff;
@@ -189,18 +189,26 @@ table {
 }
 .slider2 {
 	display: table;
-	width: 73%;
+	width: 100%;
 	height: 718px;
-	background-image: url(images/atmo.jpg);
+	background-image: url(images/atmo2.jpg);
+	background-size: cover;
 	margin: 0 auto;
+}
+.atmotext{
+	text-align: center;
+	margin-top: 50px;color: #ffffff;
+}
+.atmotextall{
+	color: #ffffff;
+	margin-left: 50px;
 }
 .knopka2{
 	width: 195px;
-    height: 37px;
-	margin-top: 449px;
+    height: 50px;
+	margin-top: 350px;
 	margin-left: 88px;
-    text-align: center;
-    padding-top: 20px;
+    
 	border-radius: 30px;
 	background-color: rgb(34, 91, 177);
 	color: #ffffff;
@@ -211,7 +219,7 @@ table {
 }
 /*----------------------------------content------------------------------------*/
 .content {
-	width: 73%;
+	width: 100%;
 	padding-bottom: 125px;
 	margin: 0 auto;
 	background-color: #ffffff;
@@ -242,10 +250,9 @@ table {
 }
 .knopka3{
 	width: 195px;
-    height: 37px;
+    height: 50px;
 	margin-top: 130px;
-	text-align: center;
-    padding-top: 20px;
+	
 	border-radius: 30px;
 	background-color: rgb(34, 91, 177);
 	color: #ffffff;
@@ -262,10 +269,9 @@ table {
 	padding-top: 30px;
 	
 }
-/*-------------------footer-----------------------*/
 .footer{
 	margin: 0 auto;
-	width: 73%;
+	width: 100%;
 	height: 400px;
 	background-color: #395185;
 	display: flex;
@@ -297,7 +303,7 @@ table {
 color: #ffffff;
 text-decoration: none;
 font-family: sans-serif;
-padding: 10px;
+
 }
 .fut li a:hover{
 color: cornflowerblue;
@@ -305,13 +311,17 @@ color: cornflowerblue;
 .mbi{
 	color: #ffffff;
     padding-top: 100px;
-    padding-left: 50px;
+    padding-left: 116px;
 }
-
+.futvk{
+	text-align: center;
+}
+.futvk  li{
+	
+	width: 50px;
+	display: inline-block;
+}
 .futvk  li :hover{
 	width: 75px;
 fill: cornflowerblue;
-}
-.futvk {
-	text-align: center;
 }
